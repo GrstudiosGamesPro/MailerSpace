@@ -35,7 +35,7 @@ function send_post_get(file_name, data, callback) {
 }
 
 function send_data_email(data) {
-  let url = "http://localhost/mailerspace/send.php";
+  let url = "https://mailerspace.neonxstudios.com/send.php";
 
   let queryString = new URLSearchParams(data).toString();
 
